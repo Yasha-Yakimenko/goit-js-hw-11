@@ -11,7 +11,7 @@ export async function fetchImages(name) {
       per_page: limit,
     });
 
-    const url = `https://pixabay.com/api/?key=27864325-08537cb5b3c49975f0f01d5bf=${name}&${params}&image_type=photo&orientation=horizontal&safesearch=true`;
+    const url = `https://pixabay.com/api/?key=27864325-08537cb5b3c49975f0f01d5bf&q=${name}&${params}&image_type=photo&orientation=horizontal&safesearch=true`;
 
     const response = await axios.get(url);
     const responseFormat = await response.data;

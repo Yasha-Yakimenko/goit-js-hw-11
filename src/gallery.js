@@ -70,7 +70,7 @@ function loadMoreImgs() {
      per_page: limit,
     });
 
-    const url = `https://pixabay.com/api/?key=27864325-08537cb5b3c49975f0f01d5bf=${name}&${params}&image_type=photo&orientation=horizontal&safesearch=true`;
+    const url = `https://pixabay.com/api/?key=27864325-08537cb5b3c49975f0f01d5bf&q=${name}&${params}&image_type=photo&orientation=horizontal&safesearch=true`;
 
     if (page > totalPages) {
         Notiflix.Notify.info("We're sorry, but you've reached the end of search results.");
