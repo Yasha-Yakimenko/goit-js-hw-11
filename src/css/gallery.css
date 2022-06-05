@@ -4,7 +4,7 @@
   }
   
   .search-form {
-    background-color: #006400
+    background-color: #ddfff2;
     position: fixed;
     top: 0;
     left: 0;
@@ -30,7 +30,7 @@
     border-radius: 4px;
   }
   .form-btn:hover {
-    background-color: #006400;
+    background-color:rgba(151, 216, 205, 0.534);
   }
   
   .gallery {
